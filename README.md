@@ -1,2 +1,7 @@
 # jg-portfolio
-Jorge Gonzalez Portfolio
+Personal portfolio for Jorge Gonzalez
+
+## Utilized Skills
+* React
+* Tailwind
+* Node.js
