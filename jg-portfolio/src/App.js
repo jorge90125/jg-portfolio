@@ -19,7 +19,7 @@ library.add(faAngleDown, faAngleUp)
 
 const App = () => {
   return (
-    <div>
+    <div class="bg-gradient-to-b from-blue4 to-blue2">
       <Nav />
       <Routes>
         <Route path='/' element={<AboutMe />} />

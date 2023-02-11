@@ -7,11 +7,11 @@ const Nav = () => {
 
     return(
         <div class="flex border-b-4 border-blue1">
-            <h1 class="text-blue5 bg-blue2 py-4 text-4xl text-center font-mono w-4/12">Jorge Gonzalez</h1>
-            <nav class="flex flex-row place-content-around items-center text-2xl bg-blue2 py-1 font-mono w-full">
+            <h1 class="text-blue5 bg-blue2 py-2 text-3xl text-center font-mono w-4/12 uppercase">Jorge Gonzalez</h1>
+            <nav class="flex flex-row place-content-around items-center text-xl bg-blue2 py-1 font-mono w-full uppercase">
                 <NavLink to='/'>About Me</NavLink>
                 <div class="flex flex-col">
-                    <button onClick={() => setIsOpen((prev) => !prev)}>Projects
+                    <button onClick={() => setIsOpen((prev) => !prev)} class="uppercase">Projects
                         {!isOpen ? (
                             <FontAwesomeIcon icon="fa-angle-down" />
                         ): (

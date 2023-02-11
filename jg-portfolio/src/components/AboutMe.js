@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
     return(
-        <div class="bg-gradient-to-b from-blue4 to-blue2">
+        <div>
             <h1>About Me</h1>
             <p>
                 Greetings! I am a full-stack software engineering graduate from and based in Austin, Texas. I've been working as a technical drafting specialist for a local civil engineering firm for over 7 years and am looking to enter the software and web development industry.
