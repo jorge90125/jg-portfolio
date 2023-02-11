@@ -30,7 +30,7 @@ const StaxOnStaxProject = () => {
             <h4>
                 Backend
             </h4>
-            <ul>
+            <ul class="list-disc list-inside">
                 <li>Python</li>
                 <li>Flask</li>
                 <li>Sql</li>
@@ -40,7 +40,7 @@ const StaxOnStaxProject = () => {
             <h4>
                 Frontend
             </h4>
-            <ul>
+            <ul class="list-disc list-inside">
                 <li>React</li>
                 <li>Javascript</li>
                 <li>CSS</li>

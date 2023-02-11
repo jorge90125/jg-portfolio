@@ -13,7 +13,9 @@ import StreaminProject from './components/StreaminProject'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 library.add(faSquareGithub)
+library.add(faAngleDown, faAngleUp)
 
 const App = () => {
   return (

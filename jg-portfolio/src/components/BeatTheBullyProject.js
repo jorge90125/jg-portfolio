@@ -19,8 +19,8 @@ const BeatTheBullyProject = () => {
             <h3>
                 Utilized Skills and Languages
             </h3>
-            <ul>
-                <li>Javascript</li>
+            <ul class="list-disc list-inside">
+                <li >Javascript</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Node.js</li>

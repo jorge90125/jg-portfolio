@@ -17,7 +17,7 @@ const PortfolioProject = () => {
             <h3>
                 Utilized Skills and Languages
             </h3>
-            <ul>
+            <ul class="list-disc list-inside">
                 <li>React</li>
                 <li>Tailwind</li>
             </ul>

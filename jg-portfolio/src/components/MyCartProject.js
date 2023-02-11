@@ -17,7 +17,7 @@ const MyCartProject = () => {
             <h3>
                 Utilized Skills and Languages
             </h3>
-            <ul>
+            <ul class="list-disc list-inside">
                 <li>MongoDB</li>
                 <li>Express.js</li>
                 <li>Javascript</li>

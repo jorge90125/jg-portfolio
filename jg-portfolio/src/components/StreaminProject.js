@@ -32,7 +32,7 @@ const StreaminProject = () => {
             <h4>
                 Backend
             </h4>
-            <ul>
+            <ul class="list-disc list-inside">
                 <li>MongoDB</li>
                 <li>Express.js</li>
                 <li>Node.js</li>
@@ -40,7 +40,7 @@ const StreaminProject = () => {
             <h4>
                 Frontend
             </h4>
-            <ul>
+            <ul class="list-disc list-inside">
                 <li>React</li>
                 <li>JSX</li>
                 <li>Javascript</li>
