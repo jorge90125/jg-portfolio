@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Nav = () => {
@@ -9,9 +9,9 @@ const Nav = () => {
         <div class="flex border-b-4 border-blue1">
             <h1 class="text-blue5 bg-blue2 py-2 text-3xl text-center font-mono w-4/12 uppercase">Jorge Gonzalez</h1>
             <nav class="flex flex-row place-content-around items-center text-xl bg-blue2 py-1 font-mono w-full uppercase">
-                <NavLink to='/'>About Me</NavLink>
+                <Link to='/' class="hover:bg-blue1 hover:text-blue5 p-2 rounded-md">About Me</Link>
                 <div class="flex flex-col">
-                    <button onClick={() => setIsOpen((prev) => !prev)} class="uppercase">Projects
+                    <button onClick={() => setIsOpen((prev) => !prev)} class="uppercase hover:bg-blue1 hover:text-blue5 p-2 rounded-md">Projects
                         {!isOpen ? (
                             <FontAwesomeIcon icon="fa-angle-down" />
                         ): (
@@ -20,11 +20,11 @@ const Nav = () => {
                     </button>
                     {isOpen && (
                         <div class="absolute text-base mt-10 flex flex-col bg-blue5 gap-2 p-2 rounded-b-lg border-2 border-t-0 border-blue1">
-                            <NavLink to='/staxonstax' onClick={() => setIsOpen((prev) => !prev)}>Stax On Stax</NavLink>
-                            <NavLink to='/streamin' onClick={() => setIsOpen((prev) => !prev)}>Streamin</NavLink>
-                            <NavLink to='/mycart' onClick={() => setIsOpen((prev) => !prev)}>MyCart</NavLink>
-                            <NavLink to='/beatthebully' onClick={() => setIsOpen((prev) => !prev)}>Beat The Bully</NavLink>
-                            <NavLink to='/portfolio' onClick={() => setIsOpen((prev) => !prev)}>Portfolio</NavLink>
+                            <Link to='/staxonstax' onClick={() => setIsOpen((prev) => !prev)} class="hover:bg-blue1 hover:text-blue5 p-px rounded-md">Stax On Stax</Link>
+                            <Link to='/streamin' onClick={() => setIsOpen((prev) => !prev)} class="hover:bg-blue1 hover:text-blue5 p-px rounded-md">Streamin</Link>
+                            <Link to='/mycart' onClick={() => setIsOpen((prev) => !prev)} class="hover:bg-blue1 hover:text-blue5 p-px rounded-md">MyCart</Link>
+                            <Link to='/beatthebully' onClick={() => setIsOpen((prev) => !prev)} class="hover:bg-blue1 hover:text-blue5 p-px rounded-md">Beat The Bully</Link>
+                            <Link to='/portfolio' onClick={() => setIsOpen((prev) => !prev)} class="hover:bg-blue1 hover:text-blue5 p-px rounded-md">Portfolio</Link>
                         </div>
                     )}
                 </div>
@@ -36,8 +36,8 @@ const Nav = () => {
                     <NavLink to='/beatthebully'>Beat The Bully</NavLink>
                     <NavLink to='/portfolio'>Portfolio</NavLink>
                 </details> */}
-                <NavLink to='/resume'>Resume</NavLink>
-                <NavLink to='/contact'>Contact Me</NavLink>
+                <Link to='/resume' class="hover:bg-blue1 hover:text-blue5 p-2 rounded-md">Resume</Link>
+                <Link to='/contact' class="hover:bg-blue1 hover:text-blue5 p-2 rounded-md">Contact Me</Link>
             </nav>
         </div>
     )
