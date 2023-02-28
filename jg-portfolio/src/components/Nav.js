@@ -6,12 +6,12 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return(
-        <div class="flex border-b-4 border-blue1">
-            <h1 class="text-blue5 bg-blue2 py-2 text-3xl text-center font-mono w-4/12 uppercase">Jorge Gonzalez</h1>
-            <nav class="flex flex-row place-content-around items-center text-xl bg-blue2 py-1 font-mono w-full uppercase">
+        <div class="flex border-b-8 border-blue5">
+            <h1 class="text-blue5 bg-blue2 py-2 text-4xl text-center font-mono w-4/12 uppercase tracking-wide">Jorge Gonzalez</h1>
+            <nav class="flex flex-row place-content-around items-center text-xl bg-blue2 py-1 font-light w-full uppercase tracking-widest">
                 <Link to='/' class="hover:bg-blue1 hover:text-blue5 p-2 rounded-md">About Me</Link>
                 <div class="flex flex-col">
-                    <button onClick={() => setIsOpen((prev) => !prev)} class="uppercase hover:bg-blue1 hover:text-blue5 p-2 rounded-md">Projects
+                    <button onClick={() => setIsOpen((prev) => !prev)} class="uppercase hover:bg-blue1 hover:text-blue5 p-2 rounded-md  tracking-widest">Projects
                         {!isOpen ? (
                             <FontAwesomeIcon icon="fa-angle-down" />
                         ): (
