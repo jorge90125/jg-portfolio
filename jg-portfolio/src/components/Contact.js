@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Contact = () => {
     return(
@@ -9,15 +10,26 @@ const Contact = () => {
             <p>
                 Want to reach out and connect? Feel free to message or email me as well as adding me on LinkedIn or GitHub.
             </p>
-            <p class="text-blue3">
-                <span class="font-bold">Email: </span><a href='mailto:jorge.gonzalez7@g.austincc.edu' target='_blank' class="hover:font-normal hover:tracking-normal hover:text-blue5 hover:italic">jorge.gonzalez7@g.austincc.edu</a>
-            </p>
-            <p>
-                <span class="font-bold">LinkedIn: </span><a href='https://www.linkedin.com/in/jorge-gonzalez-atx90125/' target='_blank' class="hover:font-normal hover:tracking-normal hover:text-blue5 hover:italic">Jorge's LinkedIn</a>
-            </p>
-            <p class="text-blue3">
-                <span class="font-bold">GitHub: </span><a href='https://github.com/jorge90125' target='_blank' class="hover:font-normal hover:tracking-normal hover:text-blue5 hover:italic">Jorge's GitHub</a>
-            </p>
+            <div class="flex flex-row text-5xl justify-evenly">
+                <a href='mailto:jorge.gonzalez7@g.austincc.edu'target="_blank">
+                    <div class="flex flex-col items-center justify-center gap-6 p-10 border-blue2 border-8 rounded-3xl hover:bg-blue4 hover:text-blue1 hover:font-bold w-72 h-60 hover:text-6xl">
+                        <p>Email</p>
+                        <FontAwesomeIcon icon="fa-regular fa-envelope" />
+                    </div>
+                </a>
+                <a href='https://www.linkedin.com/in/jorge-gonzalez-atx90125/' target="_blank">
+                    <div class="flex flex-col items-center justify-center gap-6 p-10 border-blue2 border-8 rounded-3xl hover:bg-blue4 hover:text-blue1 hover:font-bold w-72 h-60 hover:text-6xl">
+                        <p>LinkedIn</p>
+                        <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+                    </div>
+                </a>
+                <a href='https://github.com/jorge90125' target="_blank">
+                    <div class="flex flex-col items-center justify-center gap-6 p-10 border-blue2 border-8 rounded-3xl hover:bg-blue4 hover:text-blue1 hover:font-bold w-72 h-60 hover:text-6xl">
+                        <p>GitHub</p>
+                        <FontAwesomeIcon icon="fa-brands fa-square-github" />
+                    </div>
+                </a>
+            </div>
         </div>
     )
 }

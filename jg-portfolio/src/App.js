@@ -12,10 +12,12 @@ import StaxOnStaxProject from './components/StaxOnStaxProject'
 import StreaminProject from './components/StreaminProject'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
-library.add(faSquareGithub)
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+library.add(faSquareGithub, faLinkedin)
 library.add(faAngleDown, faAngleUp)
+library.add(faEnvelope)
 
 const App = () => {
   return (
