@@ -10,7 +10,7 @@ const Contact = () => {
             <p class="mx-40 leading-relaxed">
                 Want to reach out and connect? Feel free to message or email me as well as adding me on LinkedIn or GitHub.
             </p>
-            <div class="flex flex-row text-5xl justify-evenly">
+            <div class="flex flex-row text-5xl justify-evenly hover:animate-pulse">
                 <a href='mailto:jorge.gonzalez7@g.austincc.edu'target="_blank">
                     <div class="flex flex-col items-center justify-center gap-6 p-10 border-blue2 border-8 rounded-3xl hover:bg-blue4 hover:text-blue1 hover:font-bold w-72 h-60 hover:text-6xl">
                         <p>Email</p>
