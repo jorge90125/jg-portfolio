@@ -2,9 +2,11 @@ import React from 'react'
 
 const AboutMe = () => {
     return(
-        <div>
-            <h1>About Me</h1>
-            <p>
+        <div class="text-blue2 text-3xl font-extralight tracking-wide pb-10 px-10 leading-relaxed indent-10">
+            <h1 class="text-blue5 text-4xl text-center font-mono uppercase tracking-widest pt-8 pb-8">
+                About Me
+            </h1>
+            <p class="mb-10">
                 Greetings! I am a full-stack software engineering graduate from and based in Austin, Texas. I've been working as a technical drafting specialist for a local civil engineering firm for over 7 years and am looking to enter the software and web development industry.
             </p>
             <p>

@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Contact = () => {
     return(
-        <div class="flex flex-col gap-5 text-blue2 m-4 mx-10 pb-10 text-3xl font-thin tracking-wide">
-            <h1 class="text-blue5 text-4xl text-center font-mono uppercase tracking-widest">
-                Contact me
+        <div class="flex flex-col gap-5 text-blue2 m-4 mx-10 pb-10 text-3xl font-extralight tracking-wide">
+            <h1 class="text-blue5 text-4xl text-center font-mono uppercase tracking-widest pt-4">
+                Contact Me
             </h1>
             <p>
                 Want to reach out and connect? Feel free to message or email me as well as adding me on LinkedIn or GitHub.
