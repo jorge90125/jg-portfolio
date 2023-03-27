@@ -13,42 +13,48 @@ const StaxOnStaxProject = () => {
                     Stax on Stax is the capstone project for my software engineering immersive course at General assembly. Stax on Stax is a full-stack React based app that allows users to keep track of their vinyl record collections. Users can regster, sign-in, sign-out, and the app utilizes user authentication to perform CRUD functions. Users can create, edit, delete, and not only view their collections, but the collections of any other user. The app also allows the user to filter their collections, ascending or descending, based on several fields.
                 </p>
                 <div class="flex flex-row justify-evenly">
-                    <div class="flex text-6xl h-20 flex-col items-center">
+                    <div class="flex text-6xl h-20 flex-col items-center hover:text-blue3">
                         <a class="hover:animate-bounce" href='https://github.com/jorge90125/stax-on-stax-frontend' target="_blank">
                             <FontAwesomeIcon icon="fa-brands fa-square-github" />
                         </a>
                         <h3 class="text-base">Frontend</h3>
                     </div>
-                    <div class="flex text-6xl h-20 flex-col items-center">
+                    <div class="flex text-6xl h-20 flex-col items-center hover:text-blue3">
                         <a class="hover:animate-bounce" href='https://github.com/jorge90125/stax-on-stax-backend' target="_blank">
                             <FontAwesomeIcon icon="fa-brands fa-square-github" />
                         </a>
                         <h3 class="text-base">Backend</h3>
                     </div>
                 </div>
-                <h3 class="text-4xl my-8">
+            </div>
+                <h3 class="text-2xl mt-8 font-mono uppercase tracking-widest text-center text-blue5">
                     Utilized Skills and Languages
                 </h3>
-                <h4>
-                    Backend
-                </h4>
-                <ul class="list-disc list-inside">
-                    <li>Python</li>
-                    <li>Flask</li>
-                    <li>Sql</li>
-                    <li>Dotenv</li>
-                    <li>Bcrypt</li>
-                </ul>
-                <h4>
-                    Frontend
-                </h4>
-                <ul class="list-disc list-inside">
-                    <li>React</li>
-                    <li>Javascript</li>
-                    <li>CSS</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
+                <div class="flex justify-left justify-evenly">
+                    <div>
+                        <h4 class="text-xl underline text-blue3">
+                            Backend
+                        </h4>
+                        <ul class="list-disc list-inside leading-5">
+                            <li>Python</li>
+                            <li>Flask</li>
+                            <li>Sql</li>
+                            <li>Dotenv</li>
+                            <li>Bcrypt</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl underline text-blue3">
+                            Frontend
+                        </h4>
+                        <ul class="list-disc list-inside leading-5">
+                            <li>React</li>
+                            <li>Javascript</li>
+                            <li>CSS</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                </div>
         </div>
     )
 }
