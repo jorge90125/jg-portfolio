@@ -9,20 +9,22 @@ const StaxOnStaxProject = () => {
             </h1>
             <div class="ml-36">
                 <img class="float-right pt-6 ml-6 mb-8" src='stax-on-stax-ss.png' width='600'/>
-                <p class="indent-10 pt-6">
+                <p class="indent-10 pt-6 mb-6 text-right">
                     Stax on Stax is the capstone project for my software engineering immersive course at General assembly. Stax on Stax is a full-stack React based app that allows users to keep track of their vinyl record collections. Users can regster, sign-in, sign-out, and the app utilizes user authentication to perform CRUD functions. Users can create, edit, delete, and not only view their collections, but the collections of any other user. The app also allows the user to filter their collections, ascending or descending, based on several fields.
                 </p>
-                <div class="flex gap-6 text-4xl h-20">
-                    <h3>Frontend -  </h3>
-                    <a class="hover:animate-bounce hover:text-5xl" href='https://github.com/jorge90125/stax-on-stax-frontend' target="_blank">
-                        <FontAwesomeIcon icon="fa-brands fa-square-github" />
-                    </a>
-                </div>
-                <div class="flex gap-6 text-4xl h-20 pt-4">
-                    <h3>Backend -  </h3>
-                    <a class="hover:animate-bounce hover:text-5xl" href='https://github.com/jorge90125/stax-on-stax-backend' target="_blank">
-                        <FontAwesomeIcon icon="fa-brands fa-square-github" />
-                    </a>
+                <div class="flex flex-row justify-evenly">
+                    <div class="flex text-6xl h-20 flex-col items-center">
+                        <a class="hover:animate-bounce" href='https://github.com/jorge90125/stax-on-stax-frontend' target="_blank">
+                            <FontAwesomeIcon icon="fa-brands fa-square-github" />
+                        </a>
+                        <h3 class="text-base">Frontend</h3>
+                    </div>
+                    <div class="flex text-6xl h-20 flex-col items-center">
+                        <a class="hover:animate-bounce" href='https://github.com/jorge90125/stax-on-stax-backend' target="_blank">
+                            <FontAwesomeIcon icon="fa-brands fa-square-github" />
+                        </a>
+                        <h3 class="text-base">Backend</h3>
+                    </div>
                 </div>
                 <h3 class="text-4xl my-8">
                     Utilized Skills and Languages
