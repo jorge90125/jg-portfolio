@@ -32,7 +32,7 @@ const StaxOnStaxProject = () => {
             </h3>
             <div class="flex justify-left justify-evenly pb-10">
                 <div>
-                    <h4 class="text-xl underline text-blue3">
+                    <h4 class="text-lg underline text-blue5 font-mono uppercase tracking-widest">
                         Backend
                     </h4>
                     <ul class="list-disc list-inside leading-5">
@@ -44,7 +44,7 @@ const StaxOnStaxProject = () => {
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-xl underline text-blue3">
+                    <h4 class="text-lg underline text-blue5 font-mono uppercase tracking-widest">
                         Frontend
                     </h4>
                     <ul class="list-disc list-inside leading-5">

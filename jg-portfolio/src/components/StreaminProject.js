@@ -9,7 +9,7 @@ const StreaminProject = () => {
             </h1>
             <div class="ml-16 mb-10">
                 <img class="float-right pt-6 mx-8 mb-8" src='streamin-ss.png' width='600'/>
-                <p class="pt-6 mb-6 text-right">
+                <p class="pt-6 mb-6 text-right text-base">
                     Streamin is the group project for for my software engineering immersive course at General assembly. It was a full-stack MERN app collaboration between myself, Bernard Calma, and Rousse Bidon. Streamin uses user authentication to allow users to post embeded videos from most popular streaming platform with full CRUD capabillities. Users can also like videos that other users have posted. As well as comment on their own and eachothers' videos and like said comments. The app also allows the user to search the database of all videos based on the titles of the uploaded videos. My main responsibilities were to work on user verification, the register route, the comment function, the like function, as well as some miscellaneous frontend work.
                 </p>
                 <div class="flex flex-row justify-evenly">
@@ -36,7 +36,7 @@ const StreaminProject = () => {
             </h3>
             <div class="flex justify-left justify-evenly pb-10">
                 <div>
-                    <h4 class="text-xl underline text-blue3">
+                    <h4 class="text-lg underline text-blue5 font-mono uppercase tracking-widest">
                         Backend
                     </h4>
                     <ul class="list-disc list-inside leading-5">
@@ -46,7 +46,7 @@ const StreaminProject = () => {
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-xl underline text-blue3">
+                    <h4 class="text-lg underline text-blue5 font-mono uppercase tracking-widest">
                         Frontend
                     </h4>
                     <ul class="list-disc list-inside leading-5">
