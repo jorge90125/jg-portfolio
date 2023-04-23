@@ -8,7 +8,7 @@ const StaxOnStaxProject = () => {
                 Stax On Stax
             </h1>
             <div class="ml-16 mb-10">
-                <img class="float-right pt-6 mx-8 mb-8" src='stax-on-stax-ss.png' width='600' alt='StaxOnStaxProject'/>
+                <img class="float-right pt-6 mx-8 mb-8" src='stax-on-stax-ss.png' width='600' alt='StaxOnStax'/>
                 <p class="pt-6 mb-6 text-right">
                     Stax on Stax is the capstone project for my software engineering immersive course at General assembly. Stax on Stax is a full-stack React based app that allows users to keep track of their vinyl record collections. Users can regster, sign-in, sign-out, and the app utilizes user authentication to perform CRUD functions. Users can create, edit, delete, and not only view their collections, but the collections of any other user. The app also allows the user to filter their collections, ascending or descending, based on several fields.
                 </p>
