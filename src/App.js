@@ -1,6 +1,6 @@
 import './App.css'
-import React from 'react'
-import {Route, Routes} from 'react-router-dom'
+import React, { useEffect } from 'react'
+import {Route, Routes, useNavigate} from 'react-router-dom'
 import Nav from './components/Nav'
 import AboutMe from './components/AboutMe'
 import Resume from './components/Resume'
@@ -20,6 +20,12 @@ library.add(faAngleDown, faAngleUp, faGamepad)
 library.add(faEnvelope)
 
 const App = () => {
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    navigate('/')
+  }, [])
+
   return (
     <div class="bg-blue1 min-h-screen">
       <Nav />
