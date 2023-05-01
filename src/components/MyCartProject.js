@@ -8,7 +8,7 @@ const MyCartProject = () => {
                 MyCart
             </h1>
             <div class="ml-16 mb-10">
-                <img class="float-right pt-6 mx-8 mb-8" src='./mycart-ss.png' width='600' alt='MyCart'/>
+                <img class="float-right pt-6 mx-8 mb-8" src='https://i.ibb.co/PwRpbPR/mycart-ss.png' width='600' alt='MyCart'/>
                 <p class="pt-6 mb-6 text-right">
                     MyCart was the 2nd solo project for my software engineering immersive course at General assembly. MyCart is a MERN stack app that allows users to register, sign-in, sign-out, and gives full CRUD capabillities. Users can edit their cart items to indicate priority, availability, obtained status, price, category, and give them detailed descriptions.
                 </p>

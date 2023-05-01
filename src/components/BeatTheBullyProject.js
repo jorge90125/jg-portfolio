@@ -8,7 +8,7 @@ const BeatTheBullyProject = () => {
                 Beat The Bully
             </h1>
             <div class="ml-16 mb-10">
-                <img class="float-right pt-6 mx-8 mb-8" src='./beat-the-bully-ss.png' width='600' alt='BeatTheBully'/>
+                <img class="float-right pt-6 mx-8 mb-8" src='https://i.ibb.co/yQXCw6M/beat-the-bully-ss.png' width='600' alt='BeatTheBully'/>
                 <p class="pt-6 mb-6 text-right">
                     Beat the Bully was my 1st project for my software engineering immersive course at General assembly. It is a fight simulator that allows the user to distribute ten attribute points to the character in any combination desired. The computer character will randomly distribute the ten attribute points before the battle commences. Once the battle commences, the two characters will automatically fight until one emerges victorious.
                 </p>
